@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     public void getWeather(View view) {
         try {
             Drawable task = new Drawable();
-            String encodeCityName = URLEncoder.encode(edittxt.getText().toString(), "UTF-8");
+            String encodeCityName = URLEncoder.encode(edittxt.getText().toString(), "UTF-8");  // Get the city name from the edittext box in UTF-8 format
             //task.execute("https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=439d4b804bc8187953eb36d2a8c26a02");
             task.execute("https://openweathermap.org/data/2.5/weather?q=" + encodeCityName +"&appid=439d4b804bc8187953eb36d2a8c26a02");
             InputMethodManager mgr = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
