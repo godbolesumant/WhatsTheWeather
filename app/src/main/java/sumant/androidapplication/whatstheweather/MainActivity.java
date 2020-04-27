@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     TextView textView1;
 
     public void getWeather(View view) {
+        Log.i("Clicked:", "Search for city weather condition started");
         try {
             Drawable task = new Drawable();
             String encodeCityName = URLEncoder.encode(edittxt.getText().toString(), "UTF-8");  // Get the city name from the edittext box in UTF-8 format
