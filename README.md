@@ -1,9 +1,15 @@
 # WhatsTheWeather
 --------------------
 <p float="left">
-  <img align="left" src="https://github.com/godbolesumant/WhatsTheWeather/blob/master/screenshots/Screenshot_1588062742.png" width="200" height="400">
-  <img align="centre" src="https://github.com/godbolesumant/WhatsTheWeather/blob/master/screenshots/Screenshot_1588062846.png" width="200" height="400">
-  <img align="right" src="https://github.com/godbolesumant/WhatsTheWeather/blob/master/screenshots/Screenshot_1588062930.png" width="200" height="400">
+  <img src="https://github.com/godbolesumant/WhatsTheWeather/blob/master/screenshots/Screenshot_1588062742.png" width="200" height="400">
+  <img src="https://github.com/godbolesumant/WhatsTheWeather/blob/master/screenshots/Screenshot_1588062846.png" width="200" height="400">
+  <img src="https://github.com/godbolesumant/WhatsTheWeather/blob/master/screenshots/Screenshot_1588062930.png" width="200" height="400">
+</p>
+
+<p float="left">
+  <img src="https://github.com/godbolesumant/WhatsTheWeather/blob/master/screenshots/Screenshot_1588062944.png" width="200" height="400">
+  <img src="https://github.com/godbolesumant/WhatsTheWeather/blob/master/screenshots/Screenshot_1588062956.png" width="200" height="400">
+  <img src="https://github.com/godbolesumant/WhatsTheWeather/blob/master/screenshots/Screenshot_1588062992.png" width="200" height="400">
 </p>
 
 ------------------
