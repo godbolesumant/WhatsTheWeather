@@ -1,4 +1,6 @@
-# WhatsTheWeather
+
+# WhatsTheWeather <img src="https://github.com/godbolesumant/WhatsTheWeather/blob/master/app/src/main/ic_launcher-playstore.png" width="50" height="50">
+
 --------------------
 <p float="left">
   <img src="https://github.com/godbolesumant/WhatsTheWeather/blob/master/screenshots/Screenshot_1588062742.png" width="250" height="500">
