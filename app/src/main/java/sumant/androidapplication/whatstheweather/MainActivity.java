@@ -27,11 +27,16 @@ import java.net.URLEncoder;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static int LOGLEVEL = 2;
+    public static boolean ERROR = LOGLEVEL > 0;
+    public static boolean WARN = LOGLEVEL > 1;
+    public static boolean INFO = LOGLEVEL > 2;
+
     EditText edittxt;
     TextView textView1;
 
     public void getWeather(View view) {
-        Log.i("Clicked:", "Search for city weather condition started");
+        if (INFO) Log.i("Clicked:", "Search for city weather condition started");
         try {
             Drawable task = new Drawable();
             String encodeCityName = URLEncoder.encode(edittxt.getText().toString(), "UTF-8");  // Get the city name from the edittext box in UTF-8 format
@@ -83,15 +88,15 @@ public class MainActivity extends AppCompatActivity {
                 JSONObject jsonObject = new JSONObject(s);
                 String weatehrInfo = null;
                 weatehrInfo = jsonObject.getString("weather");
-                Log.i("weather content:", weatehrInfo);
+                if (INFO) Log.i("weather content:", weatehrInfo);
                 JSONArray arr = new JSONArray(weatehrInfo);
                 String message = "";
                 for (int i=0; i < arr.length(); i++) {
                     JSONObject jsonPart = arr.getJSONObject(i);
                     String main = jsonPart.getString("main");
                     String description = jsonPart.getString("description");
-                    Log.i("main:", jsonPart.getString("main"));
-                    Log.i("decsription:", jsonPart.getString("description"));
+                    if (INFO) Log.i("main:", jsonPart.getString("main"));
+                    if (INFO) Log.i("decsription:", jsonPart.getString("description"));
                     if (!main.isEmpty() && !description.isEmpty()) {
                         message += main + ": " + description;
                     }
@@ -116,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Log.i("onCreate:", "Start of application");
+        if (INFO) Log.i("onCreate:", "Start of application");
 
         edittxt = findViewById(R.id.editText);
         textView1 = findViewById(R.id.textView1);
