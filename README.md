@@ -13,10 +13,13 @@
 </p>
 
 ------------------
-## Setup Procedure
-1. Download Android Studio and Android Virtual Device (Nexus 5X API 26)
+## WhatsThe Weather location (APK file)
+- https://github.com/godbolesumant/WhatsTheWeather/blob/master/app/release/app-release.apk
+
+## Procedure to run app using PC based emulator
+1. Download Android Studio and Android Virtual Device - AVM (Nexus 5X API 26)
 2. Download JRE on your machine
-3. Open the project using Android studio and then run the code
+3. Open the project using Android studio and then run the code to emulate on AVM
 -----------
 ## Guide:
 - Enter the name of the city ( Eg. London, Tokyo, Pune, Mumbai etc.). Spaced names are also accepted (Eg. los angeles).
